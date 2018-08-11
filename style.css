@@ -1,0 +1,45 @@
+
+.header-work{
+    display:flex;
+    justify-content: space-between;
+
+}
+.header-work>*{
+    margin: 0;
+}
+.search{
+    align-items: center;
+    display: flex;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+}
+header  > p{
+    margin: 0;
+    font-size: 0.7em;
+    display: flex;
+}
+/* section styling */
+.card-show{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.card > *{
+    margin:0px;
+}
+.bg-img{
+    background-image: url('abc.jpg');
+    background-size: cover;
+    height: 164px;
+    width: 130px;
+    margin: 0px;
+}
+/* footer styling */
+.footer-styling{
+    display: flex;
+    justify-content: space-between;
+}
