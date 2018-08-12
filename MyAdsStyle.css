@@ -1,0 +1,45 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* chat header styling */
+.MyAds-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25px;
+    font-size: 19px;
+    font-weight: bold;
+}
+/* chat section styling */
+.MyAds-sect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 480px;
+}
+.chat-sect > *{
+    margin: 0px;
+}
+/* chat section background image styling */
+.bg-img-chat{
+    background-image: url('ads.png');
+    background-position: center;
+    height: 143px;
+    width: 161px;
+    background-size: cover;
+}
+/* footer styling */
+.footer-styling{
+    display: flex;
+    justify-content: space-between;
+  /* margin-top: 447px; */
+}
+.chat-anchor{
+    color: orangered;
+    font-weight: bold;
+    /* font-variant-caps: unicase; */
+    text-decoration: none;
+    text-transform: uppercase;
+}

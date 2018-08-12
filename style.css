@@ -43,3 +43,21 @@ header  > p{
     display: flex;
     justify-content: space-between;
 }
+.footer-two{
+    display: flex;
+    flex-direction: column;
+}
+.footer-one{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-four{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-five{
+    display: flex;
+    flex-direction: column;
+}
