@@ -1,0 +1,37 @@
+.log-in-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bg-img{
+    background-image: url('chat.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+}
+.log-in-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 74px;
+
+}
+.sub-buttons{
+    display: flex;
+    flex-direction: row;
+   
+}
+#one,#two{
+    flex: 1;
+}
+.log-in-tail{
+    display: flex;
+    flex-direction: column;
+    height: 282px;
+    justify-content: flex-end;
+}
+.log-in-tail>:nth-child(1){
+    align-self: center;
+}
