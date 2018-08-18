@@ -26,6 +26,8 @@ header  > p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    overflow-y: scroll;
+    height: 500px;
 
 }
 .card > *{
