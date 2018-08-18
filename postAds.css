@@ -1,0 +1,92 @@
+.main{
+    height: 500px;
+    background-color: white;
+}
+
+
+/* categories styling */
+.subDiv{
+    height: 200px;
+    background-color: rgba(253, 249, 249, 0.973);
+    position: relative;
+    top: 14;
+    top: 151px;
+    display: flex;
+    flex-direction: column;
+    
+    /* overflow-y: scroll; */
+}
+.subDIv-header{
+    display: flex;
+    font-size: 19px;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: 1px solid gainsboro;
+}
+.subDiv-body{
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+    /* height: 101px; */
+}
+.scroll{
+    height: 133px;
+     overflow-y: scroll; 
+}
+.subDiv-one{
+    display: flex;
+    justify-content: flex-start;
+   
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+   
+}
+.subDiv-one > p{
+    margin: 0px;
+    margin-left: 7px;
+}
+.subDiv-one > i{
+    background-color: darkorange;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 21px;
+    margin-left: 3px;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+
+           /* styling of categories of car postAds */
+ .form-one,.form-two{
+   
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.mainDiv-one>button{
+   margin-left: 18px;
+   margin-right: 18px;
+   
+}
+input{
+    padding: 26px;
+    padding-bottom: 3px;
+}
+.mainDiv-one>p{
+    margin: 0px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.form-one{
+    display: none;
+}
+.mainDiv-one{
+    display: none;
+    flex-direction: column;
+} 
+
+
+/* styling of categories of mobile phones PostAds */
+ .form-two{
+    display: none;
+} 
