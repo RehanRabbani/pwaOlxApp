@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+ 
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body onload="getData()">
     <header>
         <p>ALL CATEGORIES   </p>
         <div class="header-work">
@@ -25,30 +27,8 @@
     
          </div>
     </header>
-    <section class="card-show"> 
-        <div class="card">
-            <div class="bg-img"></div>
-            <p>price</p>
-            <p>details  </p>
-        </div>
-        <div class="card">
-            <div class="bg-img"></div>
-            <p>price</p>
-            <p>details  </p>
-        </div>
-        <div class="card">
-            <div class="bg-img"></div>
-            <p>price</p>
-            <p>details  </p>
-        </div>
-        <div class="card">
-            <div class="bg-img"></div>
-            <p>price</p>
-            <p>details  </p>
-        </div>
-        
-
-
+    <section id="list" class="card-show">
+       
     </section>
     <footer class="footer-styling">
         <div class="footer-one"><a href="index.html"><i class="fas fa-home"></i></a>Home </div>
